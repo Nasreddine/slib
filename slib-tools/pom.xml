@@ -8,19 +8,19 @@
     </parent>
     <artifactId>slib-tools</artifactId>
     <packaging>pom</packaging>
-    
-    
+
+
     <name>${project.artifactId}</name>
     <description>Tools based on slib modules</description>
     <url>http://www.semantic-measures-library.org</url>
-    
+
     <licenses>
         <license>
             <name>CECILL</name>
             <url>http://www.cecill.info/licences/Licence_CeCILL_V2.1-en.txt</url>
         </license>
     </licenses>
-    
+
     <developers>
         <developer>
             <name>Sébastien Harispe</name>
@@ -29,7 +29,7 @@
             <organizationUrl>http://www.mines-ales.fr/</organizationUrl>
         </developer>
     </developers>
-    
+
     <modules>
         <module>slib-tools-module</module>
         <module>slib-tools-sml-toolkit</module>
@@ -42,7 +42,7 @@
             <version>0.9.5</version>
         </dependency>
     </dependencies>
-  
+
     <build>
         <plugins>
             <plugin>
@@ -69,7 +69,7 @@
                     </execution>
                 </executions>
             </plugin>
-            
+
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <inherited>false</inherited>
@@ -80,7 +80,7 @@
                     </descriptors>
                 </configuration>
             </plugin>
-            
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
@@ -98,7 +98,7 @@
                     </execution>
                 </executions>-->
             </plugin>
-            
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-deploy-plugin</artifactId>
